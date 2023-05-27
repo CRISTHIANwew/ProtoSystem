@@ -21,4 +21,6 @@ implementation
 
 {$R *.dfm}
 
+/* teste */
+
 end.
