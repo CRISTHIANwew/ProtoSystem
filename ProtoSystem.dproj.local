@@ -1,9 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2023/05/27 20:21:44.627,=C:\Users\CRISTHIAN\Documents\Projetos\Unit1.pas</Transaction>
-    <Transaction>2023/05/27 20:22:20.208,C:\Users\CRISTHIAN\Documents\Projetos\ProtoSystem\Uprincipal.dfm=C:\Users\CRISTHIAN\Documents\Projetos\Unit1.dfm</Transaction>
-    <Transaction>2023/05/27 20:22:20.208,C:\Users\CRISTHIAN\Documents\Projetos\ProtoSystem\Uprincipal.pas=C:\Users\CRISTHIAN\Documents\Projetos\Unit1.pas</Transaction>
-    <Transaction>2023/05/27 20:43:04.633,C:\Users\CRISTHIAN\Documents\Projetos\ProtoSystem\ProtoSystem.dproj=C:\Users\CRISTHIAN\Documents\Projetos\Project1.dproj</Transaction>
+	<Transactions>
+    <Transaction>2023/05/27 20:21:44.000.627,=C:\Users\CRISTHIAN\Documents\Projetos\Unit1.pas</Transaction>
+    <Transaction>2023/05/27 20:22:20.000.208,C:\Users\CRISTHIAN\Documents\Projetos\Unit1.pas=C:\Users\CRISTHIAN\Documents\Projetos\ProtoSystem\Uprincipal.pas</Transaction>
+    <Transaction>2023/05/27 20:22:20.000.208,C:\Users\CRISTHIAN\Documents\Projetos\Unit1.dfm=C:\Users\CRISTHIAN\Documents\Projetos\ProtoSystem\Uprincipal.dfm</Transaction>
+    <Transaction>2023/05/27 20:43:04.000.633,C:\Users\CRISTHIAN\Documents\Projetos\Project1.dproj=C:\Users\CRISTHIAN\Documents\Projetos\ProtoSystem\ProtoSystem.dproj</Transaction>
+    <Transaction>2023/05/27 21:16:20.004,=C:\Users\CRISTHIAN\Documents\Projetos\ProtoSystem\Unit2.pas</Transaction>
+    <Transaction>2023/05/27 21:16:35.736,C:\Users\CRISTHIAN\Documents\Projetos\ProtoSystem\Uloguin.pas=C:\Users\CRISTHIAN\Documents\Projetos\ProtoSystem\Unit2.pas</Transaction>
+    <Transaction>2023/05/27 21:16:35.736,C:\Users\CRISTHIAN\Documents\Projetos\ProtoSystem\Uloguin.dfm=C:\Users\CRISTHIAN\Documents\Projetos\ProtoSystem\Unit2.dfm</Transaction>
   </Transactions>
 </BorlandProject>

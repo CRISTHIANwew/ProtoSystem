@@ -1,0 +1,34 @@
+unit Uloguin;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs;
+
+type
+  Tfrmloguin = class(TForm)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmloguin: Tfrmloguin;
+
+implementation
+
+{$R *.dfm}
+
+class function ulogin.Login: boolean;
+begin
+  with self.create(nil) do
+    if showmodal = mrok then
+      result := true
+    else
+      result := false
+end;
+
+
+end.
