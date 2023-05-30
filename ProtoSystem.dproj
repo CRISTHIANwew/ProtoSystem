@@ -106,19 +106,15 @@
         </DelphiCompile>
         <DCCReference Include="src\view\View.Main.pas">
             <Form>frmMain</Form>
-            <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="src\view\View.Login.pas">
             <Form>frmLogin</Form>
-            <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="src\consts\Consts.UI.pas"/>
         <DCCReference Include="src\providers\Providers.Connection.pas">
             <Form>ProviderConnection</Form>
-            <FormType>dfm</FormType>
             <DesignClass>TDataModule</DesignClass>
         </DCCReference>
-        <DCCReference Include="src\helpers\Helpers.UI.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
@@ -145,6 +141,12 @@
                 </Excluded_Packages>
             </Delphi.Personality>
             <Deployment Version="4">
+                <DeployFile LocalName="Win32\Debug\ProtoSystem.exe" Configuration="Debug" Class="ProjectOutput">
+                    <Platform Name="Win32">
+                        <RemoteName>ProtoSystem.exe</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="bin\ProtoSystem.exe" Configuration="Debug" Class="ProjectOutput">
                     <Platform Name="Win32">
                         <RemoteName>ProtoSystem.exe</RemoteName>
