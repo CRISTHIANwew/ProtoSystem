@@ -7,15 +7,21 @@ uses
   Vcl.Themes,
   Vcl.Styles,
   Consts.UI in 'src\consts\Consts.UI.pas',
-  Providers.Connection in 'src\providers\Providers.Connection.pas' {ProviderConnection: TDataModule};
+  Providers.Connection in 'src\providers\Providers.Connection.pas' {ProviderConnection: TDataModule},
+  Helpers.UI in 'src\helpers\Helpers.UI.pas';
 
 {$R *.res}
 
+
 begin
   Application.Initialize;
-  Application.MainFormOnTaskbar := True;
-  Application.CreateForm(TfrmLogin, frmLogin);
+
   Application.CreateForm(TfrmMain, frmMain);
-  Application.CreateForm(TProviderConnection, ProviderConnection);
-  Application.Run;
+  Application.CreateForm(TfrmLogin, frmLogin);
+  if frmLogin.Execute then
+  begin
+    Application.MainFormOnTaskbar := True;
+    Application.Run;
+  end
+
 end.
