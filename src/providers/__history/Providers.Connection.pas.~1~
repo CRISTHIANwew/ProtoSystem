@@ -1,0 +1,25 @@
+unit Providers.Connection;
+
+interface
+
+uses
+  System.SysUtils, System.Classes;
+
+type
+  TProviderConnection = class(TDataModule)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  ProviderConnection: TProviderConnection;
+
+implementation
+
+{%CLASSGROUP 'Vcl.Controls.TControl'}
+
+{$R *.dfm}
+
+end.

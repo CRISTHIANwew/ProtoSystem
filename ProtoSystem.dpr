@@ -6,7 +6,8 @@ uses
   View.Login in 'src\view\View.Login.pas' {frmLogin},
   Vcl.Themes,
   Vcl.Styles,
-  Consts.UI in 'src\consts\Consts.UI.pas';
+  Consts.UI in 'src\consts\Consts.UI.pas',
+  Providers.Connection in 'src\providers\Providers.Connection.pas' {ProviderConnection: TDataModule};
 
 {$R *.res}
 
@@ -15,5 +16,6 @@ begin
   Application.MainFormOnTaskbar := True;
   Application.CreateForm(TfrmLogin, frmLogin);
   Application.CreateForm(TfrmMain, frmMain);
+  Application.CreateForm(TProviderConnection, ProviderConnection);
   Application.Run;
 end.
