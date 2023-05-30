@@ -8,21 +8,25 @@
     <Transaction>2023/05/27 21:16:20.000.004,=C:\Users\CRISTHIAN\Documents\Projetos\ProtoSystem\Unit2.pas</Transaction>
     <Transaction>2023/05/27 21:16:35.000.736,C:\Users\CRISTHIAN\Documents\Projetos\ProtoSystem\Unit2.dfm=C:\Users\CRISTHIAN\Documents\Projetos\ProtoSystem\Uloguin.dfm</Transaction>
     <Transaction>2023/05/27 21:16:35.000.736,C:\Users\CRISTHIAN\Documents\Projetos\ProtoSystem\Unit2.pas=C:\Users\CRISTHIAN\Documents\Projetos\ProtoSystem\Uloguin.pas</Transaction>
-    <Transaction>2023/05/30 08:35:24.990,=C:\Users\ECO-03\Documents\GitHub\ProtoSystem\Unit1.pas</Transaction>
-    <Transaction>2023/05/30 08:35:39.174,=C:\Users\ECO-03\Documents\GitHub\ProtoSystem\Unit1.pas</Transaction>
-    <Transaction>2023/05/30 08:35:55.972,C:\Users\ECO-03\Documents\GitHub\ProtoSystem\Udm.pas=C:\Users\ECO-03\Documents\GitHub\ProtoSystem\Unit1.pas</Transaction>
-    <Transaction>2023/05/30 08:35:55.972,C:\Users\ECO-03\Documents\GitHub\ProtoSystem\Udm.dfm=C:\Users\ECO-03\Documents\GitHub\ProtoSystem\Unit1.dfm</Transaction>
-  </Transactions>  <ProjectSortOrder AutoSort="0" SortType="0">
+    <Transaction>2023/05/30 08:35:24.000.990,=C:\Users\ECO-03\Documents\GitHub\ProtoSystem\Unit1.pas</Transaction>
+    <Transaction>2023/05/30 08:35:39.000.174,=C:\Users\ECO-03\Documents\GitHub\ProtoSystem\Unit1.pas</Transaction>
+    <Transaction>2023/05/30 08:35:55.000.972,C:\Users\ECO-03\Documents\GitHub\ProtoSystem\Udm.dfm=C:\Users\ECO-03\Documents\GitHub\ProtoSystem\Unit1.dfm</Transaction>
+    <Transaction>2023/05/30 08:35:55.000.972,C:\Users\ECO-03\Documents\GitHub\ProtoSystem\Udm.pas=C:\Users\ECO-03\Documents\GitHub\ProtoSystem\Unit1.pas</Transaction>
+    <Transaction>2023/05/30 10:05:34.912,=C:\Users\ECO-03\Documents\GitHub\ProtoSystem\src\helpers\Helpers.UI.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
     <File Path="src"/>
+    <File Path="src\consts"/>
+    <File Path="src\consts\Consts.UI.pas"/>
+    <File Path="src\helpers"/>
+    <File Path="src\helpers\Helpers.UI.pas"/>
+    <File Path="src\providers"/>
+    <File Path="src\providers\Providers.Connection.pas"/>
+    <File Path="src\providers\Providers.Connection.dfm"/>
     <File Path="src\view"/>
     <File Path="src\view\View.Main.pas"/>
     <File Path="src\view\View.Main.dfm"/>
     <File Path="src\view\View.Login.pas"/>
     <File Path="src\view\View.Login.dfm"/>
-    <File Path="src\consts"/>
-    <File Path="src\consts\Consts.UI.pas"/>
-    <File Path="src\providers"/>
-    <File Path="src\providers\Providers.Connection.pas"/>
-    <File Path="src\providers\Providers.Connection.dfm"/>
   </ProjectSortOrder>
 </BorlandProject>

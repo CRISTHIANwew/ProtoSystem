@@ -7,8 +7,7 @@ uses
   Vcl.Themes,
   Vcl.Styles,
   Consts.UI in 'src\consts\Consts.UI.pas',
-  Providers.Connection in 'src\providers\Providers.Connection.pas' {ProviderConnection: TDataModule},
-  Helpers.UI in 'src\helpers\Helpers.UI.pas';
+  Providers.Connection in 'src\providers\Providers.Connection.pas' {ProviderConnection: TDataModule};
 
 {$R *.res}
 

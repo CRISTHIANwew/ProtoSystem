@@ -37,6 +37,7 @@ object frmLogin: TfrmLogin
     CustomBackColor.Color = 14120960
     CustomBackColor.LightColor = 14120960
     CustomBackColor.DarkColor = 14120960
+    ExplicitWidth = 707
     object btnClose: TUQuickButton
       Left = 488
       Top = 0
@@ -157,12 +158,16 @@ object frmLogin: TfrmLogin
     CustomBackColor.LightColor = 15132390
     CustomBackColor.DarkColor = 2039583
     MaxScrollCount = 6
+    ExplicitLeft = -3
+    ExplicitTop = 21
+    ExplicitWidth = 524
+    ExplicitHeight = 519
     object lblBemVindo: TUText
       AlignWithMargins = True
       Left = 40
       Top = 173
       Width = 453
-      Height = 47
+      Height = 38
       Margins.Left = 0
       Margins.Top = 20
       Margins.Right = 0
@@ -172,7 +177,7 @@ object frmLogin: TfrmLogin
       Caption = 'Seja bem-vindo'
       Font.Charset = DEFAULT_CHARSET
       Font.Color = 14120960
-      Font.Height = -35
+      Font.Height = -28
       Font.Name = 'Segoe UI'
       Font.Style = []
       Font.Quality = fqClearTypeNatural
@@ -180,14 +185,14 @@ object frmLogin: TfrmLogin
       StyleElements = []
       TextKind = tkTitle
       UseAccentColor = True
-      ExplicitWidth = 243
+      ExplicitWidth = 193
     end
     object lblEntre: TUText
       AlignWithMargins = True
       Left = 40
-      Top = 220
+      Top = 211
       Width = 453
-      Height = 35
+      Height = 28
       Margins.Left = 0
       Margins.Top = 0
       Margins.Right = 0
@@ -197,57 +202,54 @@ object frmLogin: TfrmLogin
       Caption = 'Entre com seu usu'#225'rio e senha'
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clBlack
-      Font.Height = -25
+      Font.Height = -20
       Font.Name = 'Segoe UI'
       Font.Style = []
       Font.Quality = fqClearTypeNatural
       ParentFont = False
       StyleElements = []
       TextKind = tkHeading
-      ExplicitTop = 211
-      ExplicitWidth = 339
+      ExplicitWidth = 261
     end
     object lblSenha: TUText
       Left = 40
-      Top = 353
+      Top = 331
       Width = 453
-      Height = 23
+      Height = 17
       Align = alTop
       Caption = 'Senha'
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clBlack
-      Font.Height = -17
+      Font.Height = -13
       Font.Name = 'Segoe UI Semibold'
       Font.Style = []
       Font.Quality = fqClearTypeNatural
       ParentFont = False
       StyleElements = []
       TextKind = tkEntry
-      ExplicitTop = 331
-      ExplicitWidth = 47
+      ExplicitWidth = 37
     end
     object lblUsuario: TUText
       Left = 40
-      Top = 275
+      Top = 259
       Width = 453
-      Height = 23
+      Height = 17
       Align = alTop
       Caption = 'Usu'#225'rio'
       Font.Charset = DEFAULT_CHARSET
       Font.Color = clBlack
-      Font.Height = -17
+      Font.Height = -13
       Font.Name = 'Segoe UI Semibold'
       Font.Style = []
       Font.Quality = fqClearTypeNatural
       ParentFont = False
       StyleElements = []
       TextKind = tkEntry
-      ExplicitTop = 259
-      ExplicitWidth = 58
+      ExplicitWidth = 46
     end
     object lblMaisOpcoes: TUHyperlink
       Left = 40
-      Top = 431
+      Top = 403
       Width = 453
       Height = 15
       Align = alTop
@@ -274,12 +276,11 @@ object frmLogin: TfrmLogin
       CustomTextColor.DarkSelectedNone = 14120960
       CustomTextColor.DarkSelectedHover = clMedGray
       CustomTextColor.DarkSelectedPress = clGray
-      ExplicitTop = 403
       ExplicitWidth = 110
     end
     object pnlOpcoes: TUPanel
       Left = 40
-      Top = 446
+      Top = 418
       Width = 453
       Height = 80
       Align = alTop
@@ -299,6 +300,7 @@ object frmLogin: TfrmLogin
       CustomBackColor.Color = 15132390
       CustomBackColor.LightColor = 15132390
       CustomBackColor.DarkColor = 2039583
+      ExplicitWidth = 444
       object cbLembrarSenha: TUCheckBox
         Left = 0
         Top = 40
@@ -351,7 +353,7 @@ object frmLogin: TfrmLogin
     object edtUser: TUEdit
       AlignWithMargins = True
       Left = 40
-      Top = 303
+      Top = 281
       Width = 453
       Margins.Left = 0
       Margins.Top = 5
@@ -379,11 +381,12 @@ object frmLogin: TfrmLogin
       CustomBorderColor.DarkSelectedNone = 14120960
       CustomBorderColor.DarkSelectedHover = 14120960
       CustomBorderColor.DarkSelectedPress = 14120960
+      ExplicitWidth = 444
     end
     object pnlSenha: TUPanel
       AlignWithMargins = True
       Left = 40
-      Top = 381
+      Top = 353
       Width = 453
       Height = 30
       Margins.Left = 0
@@ -397,6 +400,7 @@ object frmLogin: TfrmLogin
       CustomBackColor.Color = 15132390
       CustomBackColor.LightColor = 15132390
       CustomBackColor.DarkColor = 2039583
+      ExplicitWidth = 444
       object edtSenha: TUEdit
         Left = 0
         Top = 0
@@ -428,6 +432,7 @@ object frmLogin: TfrmLogin
         CustomBorderColor.DarkSelectedNone = 14120960
         CustomBorderColor.DarkSelectedHover = 14120960
         CustomBorderColor.DarkSelectedPress = 14120960
+        ExplicitWidth = 444
       end
       object btnVerSenha: TUListButton
         Left = 424
@@ -548,6 +553,7 @@ object frmLogin: TfrmLogin
       ImageSpace = 160
       Spacing = 0
       Detail = ' '
+      ExplicitWidth = 444
     end
   end
   object pnlAcoes: TUPanel
@@ -574,6 +580,9 @@ object frmLogin: TfrmLogin
     CustomBackColor.Color = 15132390
     CustomBackColor.LightColor = 15132390
     CustomBackColor.DarkColor = 2039583
+    ExplicitLeft = -3
+    ExplicitTop = 465
+    ExplicitWidth = 524
     object lblTentativas: TUText
       AlignWithMargins = True
       Left = 10
@@ -594,7 +603,7 @@ object frmLogin: TfrmLogin
       ParentFont = False
       Layout = tlBottom
       StyleElements = []
-      ExplicitLeft = 520
+      ExplicitLeft = 511
       ExplicitWidth = 3
     end
     object btnEntrar: TUButton
@@ -633,6 +642,7 @@ object frmLogin: TfrmLogin
       CustomBorderColor.DarkSelectedHover = 8750469
       CustomBorderColor.DarkSelectedPress = 6710886
       Highlight = True
+      ExplicitLeft = 384
     end
     object btnSair: TUButton
       AlignWithMargins = True
@@ -674,6 +684,7 @@ object frmLogin: TfrmLogin
       CustomBorderColor.DarkSelectedNone = 8750469
       CustomBorderColor.DarkSelectedHover = 8750469
       CustomBorderColor.DarkSelectedPress = 6710886
+      ExplicitLeft = 244
     end
     object btnCadastrar: TUButton
       AlignWithMargins = True
@@ -714,6 +725,7 @@ object frmLogin: TfrmLogin
       CustomBorderColor.DarkSelectedNone = 8750469
       CustomBorderColor.DarkSelectedHover = 8750469
       CustomBorderColor.DarkSelectedPress = 6710886
+      ExplicitLeft = 104
     end
   end
 end
