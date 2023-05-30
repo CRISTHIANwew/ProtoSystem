@@ -1,6 +1,7 @@
-object frmloguin: Tfrmloguin
+object frmLogin: TfrmLogin
   Left = 0
   Top = 0
+  Caption = 'Login'
   ClientHeight = 312
   ClientWidth = 711
   Color = clBtnFace
@@ -9,29 +10,121 @@ object frmloguin: Tfrmloguin
   Font.Height = -12
   Font.Name = 'Segoe UI'
   Font.Style = []
+  OnCreate = FormCreate
   TextHeight = 15
-  object Edit1: TEdit
-    Left = 104
-    Top = 224
-    Width = 241
-    Height = 33
+  object cbarMain: TUCaptionBar
+    Left = 0
+    Top = 0
+    Width = 711
+    Caption = '  Entrar no sistema'
+    Color = 14120960
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clBlack
+    Font.Height = -13
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    Font.Quality = fqClearTypeNatural
+    ParentFont = False
     TabOrder = 0
-    Text = 'Edit1'
-  end
-  object Edit2: TEdit
-    Left = 351
-    Top = 224
-    Width = 137
-    Height = 33
-    TabOrder = 1
-    Text = 'Edit2'
-  end
-  object Button1: TButton
-    Left = 494
-    Top = 224
-    Width = 123
-    Height = 33
-    Caption = 'Button1'
-    TabOrder = 2
+    StyleElements = []
+    CustomBackColor.Enabled = False
+    CustomBackColor.Color = 14120960
+    CustomBackColor.LightColor = 14120960
+    CustomBackColor.DarkColor = 14120960
+    ExplicitWidth = 707
+    object btnClose: TUQuickButton
+      Left = 666
+      Top = 0
+      Hint = 'Fechar'
+      Align = alRight
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Height = -16
+      Font.Name = 'Segoe MDL2 Assets'
+      Font.Style = []
+      Font.Quality = fqClearTypeNatural
+      ParentFont = False
+      ParentShowHint = False
+      ShowHint = True
+      StyleElements = []
+      CustomBackColor.Enabled = False
+      CustomBackColor.Color = clBlack
+      CustomBackColor.LightColor = 13619151
+      CustomBackColor.DarkColor = 3947580
+      ButtonStyle = qbsQuit
+      Caption = #57610
+      ExplicitLeft = 365
+    end
+    object btnMinimize: TUQuickButton
+      Left = 621
+      Top = 0
+      Hint = 'Minimizar'
+      Align = alRight
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Height = -16
+      Font.Name = 'Segoe MDL2 Assets'
+      Font.Style = []
+      Font.Quality = fqClearTypeNatural
+      ParentFont = False
+      ParentShowHint = False
+      ShowHint = True
+      StyleElements = []
+      CustomBackColor.Enabled = False
+      CustomBackColor.Color = clBlack
+      CustomBackColor.LightColor = 13619151
+      CustomBackColor.DarkColor = 3947580
+      ButtonStyle = qbsMin
+      Caption = #57608
+      ExplicitLeft = 417
+      ExplicitTop = -3
+    end
+    object btnTheme: TUQuickButton
+      Left = 576
+      Top = 0
+      Hint = 'Mudar tema'
+      Align = alRight
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Height = -16
+      Font.Name = 'Segoe MDL2 Assets'
+      Font.Style = []
+      Font.Quality = fqClearTypeNatural
+      ParentFont = False
+      ParentShowHint = False
+      ShowHint = True
+      StyleElements = []
+      OnClick = btnThemeClick
+      CustomBackColor.Enabled = False
+      CustomBackColor.Color = clBlack
+      CustomBackColor.LightColor = 13619151
+      CustomBackColor.DarkColor = 3947580
+      Caption = #59144
+      ExplicitLeft = 372
+      ExplicitTop = -3
+    end
+    object btnAbout: TUQuickButton
+      Left = 531
+      Top = 0
+      Hint = 'Mudar tema'
+      Align = alRight
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clBlack
+      Font.Height = -16
+      Font.Name = 'Segoe MDL2 Assets'
+      Font.Style = []
+      Font.Quality = fqClearTypeNatural
+      ParentFont = False
+      ParentShowHint = False
+      ShowHint = True
+      StyleElements = []
+      CustomBackColor.Enabled = False
+      CustomBackColor.Color = clBlack
+      CustomBackColor.LightColor = 13619151
+      CustomBackColor.DarkColor = 3947580
+      Caption = #59718
+      ExplicitLeft = 372
+      ExplicitTop = -3
+    end
   end
 end

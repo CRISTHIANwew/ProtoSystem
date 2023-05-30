@@ -107,9 +107,10 @@
             <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="Uloguin.pas">
-            <Form>frmloguin</Form>
+            <Form>frmLogin</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+        <DCCReference Include="src\consts\Consts.UI.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>
