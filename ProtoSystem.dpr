@@ -2,8 +2,8 @@ program ProtoSystem;
 
 uses
   Vcl.Forms,
-  Uprincipal in 'Uprincipal.pas' {frmprincipal},
-  Uloguin in 'Uloguin.pas' {frmLogin},
+  View.Main in 'src\view\View.Main.pas' {frmMain},
+  View.Login in 'src\view\View.Login.pas' {frmLogin},
   Vcl.Themes,
   Vcl.Styles,
   Consts.UI in 'src\consts\Consts.UI.pas';
@@ -14,6 +14,6 @@ begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
   Application.CreateForm(TfrmLogin, frmLogin);
-  Application.CreateForm(Tfrmprincipal, frmprincipal);
+  Application.CreateForm(TfrmMain, frmMain);
   Application.Run;
 end.
