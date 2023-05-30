@@ -2,13 +2,13 @@ program ProtoSystem;
 
 uses
   Vcl.Forms,
-  View.Main in 'src\view\View.Main.pas' {frmMain} ,
-  View.Login in 'src\view\View.Login.pas' {frmLogin} ,
+  View.Main in 'src\view\View.Main.pas' {frmMain},
+  View.Login in 'src\view\View.Login.pas' {frmLogin},
   Vcl.Themes,
   Vcl.Styles,
   Consts.UI in 'src\consts\Consts.UI.pas',
-  Providers.Connection
-    in 'src\providers\Providers.Connection.pas' {ProviderConnection: TDataModule};
+  Providers.Connection in 'src\providers\Providers.Connection.pas' {ProviderConnection: TDataModule},
+  Helpers.UI in 'src\helpers\Helpers.UI.pas';
 
 {$R *.res}
 

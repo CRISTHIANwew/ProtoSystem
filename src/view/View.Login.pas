@@ -66,6 +66,7 @@ type
       Shift: TShiftState; X, Y: Integer);
     procedure btnEntrarClick(Sender: TObject);
     procedure btnSairClick(Sender: TObject);
+    procedure FormShow(Sender: TObject);
   private
     procedure ApplyStyles;
     procedure ToggleTheme;
@@ -84,7 +85,8 @@ implementation
 {$R *.dfm}
 
 
-uses Consts.UI;
+uses Consts.UI,
+  Helpers.UI;
 
 procedure TfrmLogin.btnApagarClick(Sender: TObject);
 begin
@@ -177,6 +179,11 @@ begin
   PlaceButtons;
   if windowstate = TWindowState.wsMaximized then
     windowstate := TWindowState.wsNormal
+end;
+
+procedure TfrmLogin.FormShow(Sender: TObject);
+begin
+  tuihelper.animate(self)
 end;
 
 procedure TfrmLogin.lblMaisOpcoesClick(Sender: TObject);
